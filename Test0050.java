@@ -83,13 +83,29 @@ public class Test0050
      */
     public int raiz(int a)
     {
-        int num = 0;
         int resul = 0;
-        while(resul <= a)
+        int num = 0; 
+        boolean men = true;
+
+        while(resul <= a && a <1001)
         {
             resul = num*num;
             num = num + 1;
+            men = false;
         }
-        return num-2;
+        if(a>1000)
+        {
+            System.out.println("La cantidad debe ser menor de 1000");
+        }
+        
+        else if((num-2)*(num-2)== a && men == false)
+         {
+             return num-2;
+            }
+        else 
+        {
+            System.out.println("ERROR, no tiene raiz cuadrada");
+        }
+        return -1;
     }
 }
