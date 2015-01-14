@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Test0050()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Test0050\r\n
+comment1.params=a\ b
+comment1.target=int\ multiplicar(int,\ int)
+comment1.text=\r\n\ Metodo\ que\ realiza\ multiplicaciones\ enteras\r\n
+comment2.params=a\ b
+comment2.target=int\ dividir(int,\ int)
+comment2.text=\r\n\ Metodo\ que\ realiza\ divisiones\ enteras\ entre\ dos\ numeros\ dados\ por\ parametro\r\n
+comment3.params=a\ b
+comment3.target=int\ modulo(int,\ int)
+comment3.text=\r\n\ Metodo\ que\ realiza\ modulos\ entre\ dos\ numeros\ dados\ por\ parametros\r\n\ \r\n
+comment4.params=a\ b
+comment4.target=int\ potencia(int,\ int)
+comment4.text=\r\n\ Metodo\ que\ realiza\ potencias\ entre\ dos\ numeros\ dados\ por\ parametro\r\n
+numComments=5
