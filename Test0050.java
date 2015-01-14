@@ -1,5 +1,4 @@
 
-
 /**
  * Write a description of class Test0050 here.
  * 
@@ -16,7 +15,7 @@ public class Test0050
      */
     public Test0050()
     {
-        
+
     }
 
     /**
@@ -30,10 +29,10 @@ public class Test0050
             res = res + a;
             b--;
         }
-        
+
         return res;
     }
-    
+
     /**
      * Metodo que realiza divisiones enteras entre dos numeros dados por parametro
      */
@@ -47,15 +46,15 @@ public class Test0050
         }
         return cont;
     }
-    
+
     /**
      * Metodo que realiza modulos entre dos numeros dados por parametros
      * 
      */
     public int modulo (int a, int b)    
     {   
-      int cont = 0;
-      int mod = 0;
+        int cont = 0;
+        int mod = 0;
         while (a > 0 && a >= b)
         {
             a = a - b;
@@ -63,7 +62,7 @@ public class Test0050
         }
         return a;
     }
-    
+
     /**
      * Metodo que realiza potencias entre dos numeros dados por parametro
      */
@@ -73,10 +72,24 @@ public class Test0050
         int cont = 1;
         while (cont < b)
         {
-           resul = multiplicar(resul, a);
-           cont ++;
+            resul = multiplicar(resul, a);
+            cont ++;
         }
         return resul;
     }
-}
 
+    /**
+     * Metodo que realiza la raiz cuadrada de un numero pasado por parametro
+     */
+    public int raiz(int a)
+    {
+        int num = 0;
+        int resul = 0;
+        while(resul <= a)
+        {
+            resul = num*num;
+            num = num + 1;
+        }
+        return num-2;
+    }
+}
